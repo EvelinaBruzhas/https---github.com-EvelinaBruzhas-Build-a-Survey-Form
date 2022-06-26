@@ -3,12 +3,21 @@
   <h1 id="title">freeCodeCamp Survey Form</h1>
   <p id="description">Thank you for taking the time to help us improve the platform</p>
   <form id="survey-form">
-    <label id="name-label" for="name">Name</label>
-    <input id="name" type="text" placeholder="Enter you name" required><br>
-    <label id="email-label">Email</label>
-    <input id="email" type="email" placeholder="Enter you Email" required><br>
-    <label id="number-label">Age (optional)</label>
-    <input id="number" type="number" placeholder="Age" min="18" max="70"><br>
+    <div class="survey-form">
+      <p class="name-input">Name</p>
+    <label id="name-label" for="name"></label>
+    <input id="name" type="text" placeholder="Enter you name" required>
+  </div>
+  <div class="survey-form">
+    <p class="name-input">Email</p>
+    <label id="email-label"></label>
+    <input id="email" type="email" placeholder="Enter you Email" required>
+  </div>
+  <div class="survey-form">
+    <p class="name-input">Age (optional)</p>
+    <label id="number-label"></label>
+    <input id="number" type="number" placeholder="Age" min="18" max="70">
+  </div>
     <label id="select">Which option best describes your current role?</label>
 <select id="dropdown">
   <option value="student" >student</option>
@@ -41,8 +50,8 @@ Definitely</p>
 
     <div>
       <input type="checkbox" id="horns" name="horns"  value="back-end">
-      <label for="horns">Horns</label>
-      <div>
+      <label for="horns">Front-end Projects</label>
+      <div class="comment">
       <textarea></textarea>
       </div> <br>
       <div>
