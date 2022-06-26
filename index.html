@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="styles.css">
+<main>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+    <label id="name-label" for="name">Name</label>
+    <input id="name" type="text" placeholder="Enter you name" required><br>
+    <label id="email-label">Email</label>
+    <input id="email" type="email" placeholder="Enter you Email" required><br>
+    <label id="number-label">Age (optional)</label>
+    <input id="number" type="number" placeholder="Age" min="18" max="70"><br>
+    <label id="select">Which option best describes your current role?</label>
+<select id="dropdown">
+  <option value="student" >student</option>
+  <option value="full-time-job">full time job</option>
+  <option value="oter">other</option>
+  </select><br>
+<p>Would you recommend freeCodeCamp to a friend?
+Definitely</p>
+<div>
+<input type="radio" name="definitely" id="Definitely" checked>
+ <label for="Definitely">Definitely</label>
+    </div>
+
+    <div>
+      <input type="radio" id="Maybe" name="Maybe" value="Maybe">
+      <label for="Maybe">Maybe</label>
+    </div>
+
+    <div>
+      <input type="radio" id="Not sure" name="Not-sure" value="Not sure">
+      <label for="Not sure">Not sure</label>
+    </div> <br>
+<legend>What would you like to see improved? (Check all that apply)</legend>
+
+    <div>
+      <input type="checkbox" id="scales" name="scales"
+            value="front-end" checked>
+      <label for="scales">Scales</label>
+    </div> 
+
+    <div>
+      <input type="checkbox" id="horns" name="horns"  value="back-end">
+      <label for="horns">Horns</label>
+      <div>
+      <textarea></textarea>
+      </div> <br>
+      <div>
+        <button type="submit" id="submit">
+            Submit
+          </button>
+          </div>
+    </div>
+    </main>
+    </form>
