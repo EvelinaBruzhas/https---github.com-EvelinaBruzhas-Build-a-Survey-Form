@@ -41,7 +41,7 @@
     margin-bottom: 1rem;
 }
 
-.form__label .form__p {
+.form__label .form__text {
     display: block;
     margin-bottom: 0.25rem;
 
@@ -62,9 +62,14 @@
     border-radius: 0.25rem;
 }
 
+.form__label--input {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .form__select {
     display: block;
-    width: 100%;
+    width: 436px;
     height: 25px;
     font-family: inherit;
     font-size: 1rem;
@@ -75,6 +80,11 @@
     background-clip: padding-box;
     border: 1px solid #bdbdbd;
     border-radius: 0.25rem;
+}
+
+.form__option {
+    
+    
 }
 
 .form__textarea {
@@ -121,4 +131,7 @@
 .form__button:focus {
     border: 3px solid #bdbdbd;
 }
+
+
   
+
